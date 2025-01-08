@@ -23,13 +23,14 @@ class Level:
                 y = row_index * TILESIZE
 
                 if col == 'x':
-                    Tile((x,y),[self.visable_sprites],self.obstacle_sprites)
+                    Tile((x,y),[self.visable_sprites,self.obstacle_sprites])
 
                 if col == 'p':
-                    Player((x,y),[self.visable_sprites])
+                    self.player = Player((x,y),[self.visable_sprites])
 
 
 
     def run(self):
         # Update and draw the Game
         self.visable_sprites.draw(self.display_surface)
+        self.visable_sprites.update()
