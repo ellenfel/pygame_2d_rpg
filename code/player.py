@@ -6,7 +6,7 @@ class Player(pygame.sprite.Sprite):
     def __init__(self, pos, groups, obstacle_sprites):
         super().__init__(groups)
         base_path = os.path.dirname(os.path.abspath(__file__))
-        image_path = os.path.join(base_path, '../graphics/test/player.png')
+        image_path = os.path.join(base_path, '../graphics/test/player1.png')
         self.image = pygame.image.load(image_path).convert_alpha()
         self.rect = self.image.get_rect(topleft = pos)
         self.hitbox = self.rect.inflate(0,-26)
