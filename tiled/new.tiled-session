@@ -1,0 +1,237 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "2map.tmx",
+    "expandedProjectPaths": [
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/libraries/Simple-Tiled-Implementation/tests",
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps",
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/libraries",
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/libraries/Simple-Tiled-Implementation",
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main"
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/libraries/Simple-Tiled-Implementation/tests/tsx/grid.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/TX Tileset Grass.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/_old2/test7.tmx": {
+            "scale": 0.8480729166666666,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 480.5011361542713,
+                "y": 217.5520481483756
+            }
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/_old2/test7.tmx#overworld": {
+            "scaleInDock": 1
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/_old2/testCave.tmx": {
+            "scale": 0.9977328431372549,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 392.3896087944482,
+                "y": 256.0805748326475
+            }
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/_old2/testCave.tmx#cave": {
+            "scaleInDock": 1
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/_old2/testCave.tmx#overworld": {
+            "scaleInDock": 1
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/_old3/test.tmx": {
+            "scale": 1.6436079545454545,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 232.1113127646703,
+                "y": 176.13689395903552
+            }
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/_old3/test.tmx#overworld": {
+            "scaleInDock": 1
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/_old3/test.tmx#overworld-edit": {
+            "scaleInDock": 1
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/_old3/test2.tmx": {
+            "scale": 1.6436079545454545,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 232.1113127646703,
+                "y": 176.13689395903552
+            }
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/_old3/test2.tmx#overworld": {
+            "scaleInDock": 1
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/_old3/test2.tmx#overworld-edit": {
+            "scaleInDock": 1
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/_old3/test2.tmx#overworld-edit2": {
+            "scaleInDock": 1
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/_old3/test3.tmx": {
+            "scale": 1.6436079545454545,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 232.1113127646703,
+                "y": 176.13689395903552
+            }
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/_old3/test3.tmx#overworld": {
+            "scaleInDock": 1
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/_old3/test3.tmx#overworld-edit": {
+            "scaleInDock": 1
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/menu.tmx": {
+            "scale": 1.6414314516129032,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 232.41908739175827,
+                "y": 176.0658355339925
+            }
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/menu.tmx#overworld": {
+            "scaleInDock": 1
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/test.tmx": {
+            "scale": 2,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 331,
+                "y": 188
+            }
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/test.tmx#overworld": {
+            "scaleInDock": 1.5
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/test.tmx#overworld-edit": {
+            "scaleInDock": 1
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/test2.tmx": {
+            "scale": 1.8021114864864864,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 225.29127806158317,
+                "y": 187.0028588836294
+            }
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/test2.tmx#overworld-edit": {
+            "scaleInDock": 1
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/testCave.tmx": {
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 392,
+                "y": 256
+            }
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/testCave.tmx#cave": {
+            "scaleInDock": 2
+        },
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/testCave.tmx#overworld": {
+            "scaleInDock": 1
+        },
+        "/home/ellenfel/Desktop/water2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "2map.tmx": {
+            "scale": 0.2380878712871287,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 222.60688758934378,
+                "y": 936.62897985705
+            }
+        },
+        "TX Plant.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "TX Props.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "TX Shadow Plant.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "TX Shadow.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "TX Struct.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "TX Tileset Grass.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "TX Tileset Stone Ground.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "TX Tileset Wall.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "newmap.tmx": {
+            "scale": 0.0156,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 4551.282051282051,
+                "y": 120064.10256410256
+            }
+        }
+    },
+    "last.exportedFilePath": "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps",
+    "last.imagePath": "/home/ellenfel/Desktop/repos/game-dev/assets/2d_topdown_fantasy/tilesets/topdown-basic/Texture",
+    "last.worldFilePath": "/home/ellenfel/Desktop/repos/game-dev/pygame/zelda_like/tiled",
+    "loadedWorlds": [
+        "/home/ellenfel/Desktop/repos/game-dev/pygame/zelda_like/tiled/world.world"
+    ],
+    "map.lastUsedExportFilter": "All Files (*)",
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+        "newmap.tmx",
+        "2map.tmx",
+        "TX Tileset Wall.tsx",
+        "TX Plant.tsx",
+        "TX Props.tsx",
+        "TX Shadow.tsx",
+        "TX Shadow Plant.tsx",
+        "TX Tileset Stone Ground.tsx",
+        "TX Tileset Grass.tsx",
+        "TX Struct.tsx"
+    ],
+    "project": "new.tiled-project",
+    "recentFiles": [
+        "newmap.tmx",
+        "TX Struct.tsx",
+        "TX Tileset Grass.tsx",
+        "TX Tileset Stone Ground.tsx",
+        "TX Shadow Plant.tsx",
+        "TX Shadow.tsx",
+        "TX Props.tsx",
+        "TX Plant.tsx",
+        "TX Tileset Wall.tsx",
+        "2map.tmx",
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/testCave.tmx",
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps/test2.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 32,
+        "width": 32
+    }
+}
