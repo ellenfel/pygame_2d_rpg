@@ -13,7 +13,6 @@ def import_csv_layout(path):
 def import_folder(path):
     surface_list = []
 
-    print(f"Checking path: {path}")
     for _, __, img_files in walk(path):
         print(f"Found files: {img_files}")
         for image in img_files:
