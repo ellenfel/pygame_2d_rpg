@@ -1,0 +1,65 @@
+[33mcommit d0deb15cd947997403b5833da2f8451673dfb33b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: ellenfel <ellfelfen@gmail.com>
+Date:   Mon Feb 17 07:05:05 2025 +0300
+
+    editting the map
+
+[33mcommit 2bdf2103e6366a81f3552e21111dcbcccbe3b851[m
+Author: ellenfel <ellfelfen@gmail.com>
+Date:   Mon Feb 17 06:05:05 2025 +0300
+
+    added tiled files
+
+[33mcommit f0173dc755acbc5e105c4fabe54523e5d3e64375[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: ellenfel <ellfelfen@gmail.com>
+Date:   Fri Jan 17 05:05:05 2025 +0300
+
+    removed some debug statements
+
+[33mcommit 11d4a2c432456d968b500cd96442b38e3ff3e3ba[m
+Author: ellenfel <ellfelfen@gmail.com>
+Date:   Wed Jan 15 07:05:05 2025 +0300
+
+    graphics tested
+
+[33mcommit df40c749aef64d22e7fb9e05b1192019a26b878f[m
+Author: ellenfel <ellfelfen@gmail.com>
+Date:   Wed Jan 15 06:05:05 2025 +0300
+
+    messing with graphics
+
+[33mcommit 239003cb3414e49aa483256c1dcb08634427b107[m
+Author: ellenfel <ellfelfen@gmail.com>
+Date:   Wed Jan 15 05:05:05 2025 +0300
+
+    done with camera starting with graphics
+
+[33mcommit 5f7dda314ba12847717fa8e64d3b5fe9606480bc[m
+Author: ellenfel <ellfelfen@gmail.com>
+Date:   Wed Jan 8 09:05:05 2025 +0300
+
+    done with collision starting with camera
+
+[33mcommit eabb91fdfcb4ff99220438f6cafab4d2bce4f30e[m
+Author: ellenfel <ellfelfen@gmail.com>
+Date:   Wed Jan 8 08:05:05 2025 +0300
+
+    done with player starting collision
+
+[33mcommit 045752a22ccaa9cc4e53a1f39948ce7b9ab40e9d[m
+Author: ellenfel <ellfelfen@gmail.com>
+Date:   Wed Jan 8 07:05:05 2025 +0300
+
+    done with level set up
+
+[33mcommit b8573f6f73caaf8f2719ab0738a2c5aad6e9539a[m
+Author: ellenfel <ellfelfen@gmail.com>
+Date:   Wed Jan 8 06:05:05 2025 +0300
+
+    done with setup
+
+[33mcommit 07878f1c31bad21085a6ef4d4958e09cee7bb066[m
+Author: ellenfel <ellfelfen@gmail.com>
+Date:   Wed Jan 8 05:05:05 2025 +0300
+
+    initilized
