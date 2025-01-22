@@ -1,0 +1,6 @@
+packaging==24.2
+pip==24.2
+pygame==2.6.1
+PyTMX==3.32
+setuptools==75.8.0
+wheel==0.44.0
