@@ -3,13 +3,13 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "/home/ellenfel/Desktop/repos/game-dev/lua_platformer/Platformer-tutorial/tests/map/tmx/2.tmx",
+    "activeFile": "newmap.tmx",
     "expandedProjectPaths": [
-        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/libraries/Simple-Tiled-Implementation",
         "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/libraries",
-        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps",
         "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main",
-        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/libraries/Simple-Tiled-Implementation/tests"
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/libraries/Simple-Tiled-Implementation/tests",
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/maps",
+        "/home/ellenfel/Desktop/repos/game-dev/legend-of-lua-main/libraries/Simple-Tiled-Implementation"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -381,16 +381,16 @@
             "scale": 0.9248798076923076,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 400.05198180636785,
-                "y": 398.9707602339182
+                "x": 399.511371020143,
+                "y": 399.51137102014303
             }
         },
         "2map.tmx": {
             "scale": 1.1894,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 1599.125609551034,
-                "y": 1597.4440894568688
+                "x": 1599.5459895745753,
+                "y": 1599.5459895745753
             }
         },
         "TX Plant.tsx": {
@@ -429,8 +429,8 @@
             "scale": 0.0156,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 4487.179487179488,
-                "y": 120000
+                "x": -235512.8205128205,
+                "y": -226987.1794871795
             }
         }
     },
@@ -445,24 +445,25 @@
     "map.lastUsedFormat": "tmx",
     "map.width": 25,
     "openFiles": [
-        "/home/ellenfel/Desktop/repos/game-dev/lua_platformer/Platformer-tutorial/tests/map/tmx/1.tmx",
-        "/home/ellenfel/Desktop/repos/game-dev/lua_platformer/Platformer-tutorial/tests/map/tmx/2.tmx",
-        "/home/ellenfel/Desktop/repos/game-dev/lua_platformer/Platformer-tutorial/tests/map/tmx/3.tmx"
+        "2map.tmx",
+        "1map.tmx",
+        "newmap.tmx",
+        "TX Tileset Wall.tsx"
     ],
     "project": "new.tiled-project",
     "recentFiles": [
+        "2map.tmx",
+        "1map.tmx",
+        "TX Tileset Wall.tsx",
+        "newmap.tmx",
+        "TX Plant.tsx",
         "/home/ellenfel/Desktop/repos/game-dev/lua_platformer/Platformer-tutorial/tests/map/tmx/1.tmx",
         "/home/ellenfel/Desktop/repos/game-dev/lua_platformer/Platformer-tutorial/tests/map/tmx/3.tmx",
         "/home/ellenfel/Desktop/repos/game-dev/lua_platformer/Platformer-tutorial/tests/map/tmx/2.tmx",
         "/home/ellenfel/Desktop/repos/game-dev/lua_platformer/platformer_test/platformer_game_pt 3/map/tmx/1.tmx",
         "/home/ellenfel/Desktop/repos/game-dev/Dragon-Slayer/map/tmx/1.tmx",
         "/home/ellenfel/Desktop/repos/game-dev/lua_platformer/Platformer-tutorial/tests/map/tmx/4.tmx",
-        "/home/ellenfel/Desktop/repos/game-dev/lua_platformer/tiled-maps/MagicLand.tmx",
-        "/home/ellenfel/Desktop/repos/game-dev/lua_platformer/Platformer-tutorial/tests/map/4.tmx",
-        "/home/ellenfel/Desktop/repos/game-dev/lua_platformer/Platformer-tutorial/tests/map/MagicLand.tmx",
-        "/home/ellenfel/Desktop/repos/game-dev/lua_platformer/tiled-maps/jb-32.tmx",
-        "/home/ellenfel/Desktop/repos/game-dev/lua_platformer/tiled-maps/gameart2d-desert.tmx",
-        "/home/ellenfel/Desktop/repos/game-dev/lua_platformer/tiled-maps/level25.tmx"
+        "/home/ellenfel/Desktop/repos/game-dev/lua_platformer/tiled-maps/MagicLand.tmx"
     ],
     "tileset.embedInMap": true,
     "tileset.lastUsedFormat": "tsx",
