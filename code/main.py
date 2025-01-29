@@ -4,14 +4,14 @@ from level import Level
 
 class Game:
 	def __init__(self):
-		  
+
 		# general setup
 		pygame.init()
 		self.screen = pygame.display.set_mode((WIDTH,HEIGTH))
 		pygame.display.set_caption('Zelda')
 		self.clock = pygame.time.Clock()
 
-		self.level = Level()
+		self.level = Level() 
 	
 	def run(self):
 		while True:
@@ -27,4 +27,4 @@ class Game:
 
 if __name__ == '__main__':
 	game = Game()
-	game.run()	
+	game.run()
