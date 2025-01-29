@@ -1,1 +1,50 @@
-MAKE A TODO
+## TODO
+
+# Core Mechanics
+- [ ] Finish the tutorial implementation
+- [ ] Finish the Tiled map editor tutorial
+- [ ] Add rolling/dodge mechanic
+- [ ] Add particle effects for attacks/magic
+
+# Character Systems
+- [ ] Change the character sprite
+- [ ] Add character stats (HP, MP, Stamina)
+- [ ] Add skill tree with unlockable abilities
+- [ ] Implement inventory system
+- [ ] Add equipment system (weapons, armor)
+
+# World Building
+- [ ] Change the default map
+- [ ] Add new map areas
+- [ ] Create transition between areas
+- [ ] Add interactive objects (chests, doors)
+- [ ] Add weather effects
+
+# Combat System
+- [ ] Refine melee combat
+- [ ] Add ranged combat
+- [ ] Implement magic system
+- [ ] Add enemy AI patterns
+- [ ] Add boss battles
+- [ ] Create different enemy types
+- [ ] Add status effects (poison, stun, etc)
+
+# UI/UX
+- [ ] Add main menu
+- [ ] Create pause menu
+- [ ] Implement HUD (health bar, mana, stamina)
+
+# Audio
+- [ ] Add background music
+- [ ] Add sound effects for:
+  - [ ] Combat
+  - [ ] Movement
+  - [ ] UI interactions
+  - [ ] Environment
+
+# Polish
+- [ ] Add save/load system
+- [ ] Implement game settings
+- [ ] Add visual feedback for player actions
+- [ ] Optimize performance
+- [ ] Add proper game over screen
