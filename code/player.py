@@ -19,7 +19,7 @@ class Player(pygame.sprite.Sprite):
         self.frame_index = 0
         self.animation_speed = 0.15
 
-        # movement
+        # movement 
         self.direction = pygame.math.Vector2()
         self.speed = 5
         self.attacking = False
