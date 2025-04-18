@@ -6,6 +6,7 @@ from debug import debug
 from support import *
 from random import choice
 from weapon import Weapon
+from ui import UI
 
 class Level:
 	def __init__(self):
@@ -22,6 +23,9 @@ class Level:
 
 		# sprite setup
 		self.create_map()
+
+		# user interface 
+		self.ui = UI()
 
 	def create_map(self):
 		layouts = {
@@ -53,6 +57,7 @@ class Level:
 		self.player = Player((2000,1430),[self.visible_sprites],self.obstacle_sprites,self.create_attack,self.destroy_attack)
 	
 	def create_attack(self):
+		
 		self.current_attack = Weapon(self.player,[self.visible_sprites])
 
 	def destroy_attack(self):
@@ -60,17 +65,17 @@ class Level:
 			self.current_attack.kill()
 		self.current_attack = None
 
-
 	def run(self):
 		# update and draw the game
 		self.visible_sprites.custom_draw(self.player)
 		self.visible_sprites.update()
-		debug(self.player.status)
+		self.ui.display(self.player)
 
+
+import os
 
 class YSortCameraGroup(pygame.sprite.Group):
 	def __init__(self):
-
 		# general setup 
 		super().__init__()
 		self.display_surface = pygame.display.get_surface()
@@ -79,8 +84,25 @@ class YSortCameraGroup(pygame.sprite.Group):
 		self.offset = pygame.math.Vector2()
 
 		# creating the floor
-		self.floor_surf = pygame.image.load('../graphics/tilemap/ground.png').convert()
+		base_path = os.path.dirname(os.path.abspath(__file__))
+		image_path = os.path.join(base_path, '../graphics/tilemap/ground.png')
+		self.floor_surf = pygame.image.load(image_path).convert()
 		self.floor_rect = self.floor_surf.get_rect(topleft = (0,0))
+
+	def custom_draw(self,player):
+				
+		# getting the offset 
+		self.offset.x = player.rect.centerx - self.half_width
+		self.offset.y = player.rect.centery - self.half_height
+
+		# drawing the floor
+		floor_offset_pos = self.floor_rect.topleft - self.offset
+		self.display_surface.blit(self.floor_surf,floor_offset_pos)
+
+		# for sprite in self.sprites():
+		for sprite in sorted(self.sprites(),key = lambda sprite: sprite.rect.centery):
+			offset_pos = sprite.rect.topleft - self.offset
+			self.display_surface.blit(sprite.image,offset_pos)
 
 	def custom_draw(self,player):
 

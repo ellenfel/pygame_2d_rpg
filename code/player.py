@@ -1,11 +1,17 @@
 import pygame 
 from settings import *
 from support import import_folder
+import os
 
 class Player(pygame.sprite.Sprite):
 	def __init__(self,pos,groups,obstacle_sprites,create_attack,destroy_attack):
 		super().__init__(groups)
-		self.image = pygame.image.load('../graphics/test/player.png').convert_alpha()
+		
+		# Get base path for assets
+		base_path = os.path.dirname(os.path.abspath(__file__))
+		player_path = os.path.join(base_path, '../graphics/test/player.png')
+		
+		self.image = pygame.image.load(player_path).convert_alpha()
 		self.rect = self.image.get_rect(topleft = pos)
 		self.hitbox = self.rect.inflate(0,-26)
 
@@ -39,13 +45,14 @@ class Player(pygame.sprite.Sprite):
 		self.speed = self.stats['speed']
 
 	def import_player_assets(self):
-		character_path = '../graphics/player/'
+		base_path = os.path.dirname(os.path.abspath(__file__))
+		character_path = os.path.join(base_path, '../graphics/player/')
 		self.animations = {'up': [],'down': [],'left': [],'right': [],
 			'right_idle':[],'left_idle':[],'up_idle':[],'down_idle':[],
 			'right_attack':[],'left_attack':[],'up_attack':[],'down_attack':[]}
 
 		for animation in self.animations.keys():
-			full_path = character_path + animation
+			full_path = os.path.join(character_path, animation)
 			self.animations[animation] = import_folder(full_path)
 
 	def input(self):
