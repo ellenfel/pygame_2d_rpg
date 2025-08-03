@@ -2,8 +2,10 @@ import pygame
 from settings import *
 from support import import_folder
 import os
+from entity import Entity
 
-class Player(pygame.sprite.Sprite):
+
+class Player(Entity):
 	def __init__(self,pos,groups,obstacle_sprites,create_attack,destroy_attack, create_magic):
 		super().__init__(groups)
 		
@@ -122,9 +124,6 @@ class Player(pygame.sprite.Sprite):
 
 				self.magic = list(magic_data.keys())[self.magic_index]
 
-
-
-
 	def get_status(self):
 
 		# idle status
@@ -186,7 +185,6 @@ class Player(pygame.sprite.Sprite):
 		if not self.can_switch_magic:
 			if current_time - self.magic_switch_time >= self.switch_duration_cooldown:
 				self.can_switch_magic = True
-
 
 	def animate(self):
 		animation = self.animations[self.status]
