@@ -91,6 +91,16 @@ class Level:
 			self.current_attack.kill()
 		self.current_attack = None
 
+	# Note that this method would go through all attack sprites
+	# and there is currently only one attack sprite.
+	def player_attack_logic(self):
+		if self.attack_sprites:
+			for attack_sprite in self.attack_sprites:
+				pygame.sprite.spritecollide(attack_sprite,self.attackable_sprites,True)
+
+
+
+
 	def run(self):
 		# update and draw the game
 		self.visible_sprites.custom_draw(self.player)
