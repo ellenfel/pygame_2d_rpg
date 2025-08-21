@@ -1,8 +1,14 @@
 ## TODO
 
-# Core Mechanics
-- [ ] Finish the tutorial implementation
+# Tutorials
+- [ ] Finish the RPG tutorial implementation
 - [ ] Finish the Tiled map editor tutorial
+- [ ] Finish the Farm tutorial implementation
+- [ ] Finish the Collusions tutorial
+- [ ] Update Tutorial RoadMap
+- [ ] Combine the tutorials as you go along.
+
+# Core Mechanics
 - [ ] Add rolling/dodge mechanic
 - [ ] Add particle effects for attacks/magic
 
