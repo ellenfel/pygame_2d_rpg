@@ -43,6 +43,7 @@
   - [ ] Environment
 
 # Polish
+- [ ] Add new collision mechanics
 - [ ] Add save/load system
 - [ ] Implement game settings
 - [ ] Add visual feedback for player actions
