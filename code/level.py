@@ -1,4 +1,6 @@
-import pygame 
+import pygame
+import os
+from random import randint
 from settings import *
 from tile import Tile
 from player import Player
@@ -8,6 +10,7 @@ from random import choice
 from weapon import Weapon
 from ui import UI
 from enemy import Enemy
+from particles import AnimationPlayer
 
 class Level:
 	def __init__(self):
@@ -29,6 +32,9 @@ class Level:
 
 		# user interface 
 		self.ui = UI()
+
+		# particles
+		self.animation_player = AnimationPlayer()
 
 	def create_map(self):
 		layouts = {
@@ -101,6 +107,9 @@ class Level:
 				if collision_sprites:
 					for target_sprite in collision_sprites:
 							if target_sprite.sprite_type == 'grass':
+								pos = target_sprite.rect.center
+								for leaf in range(randint(3,6)):
+										self.animation_player.create_grass_particles(pos,[self.visible_sprites])
 								target_sprite.kill()
 							else:
 								target_sprite.get_damage(self.player,attack_sprite.sprite_type)
@@ -112,7 +121,6 @@ class Level:
 			self.player.hit_time = pygame.time.get_ticks()
 			# spawn particle effect
 
-
 	def run(self):
 		# update and draw the game
 		self.visible_sprites.custom_draw(self.player)
@@ -122,7 +130,6 @@ class Level:
 		self.ui.display(self.player)
 
 
-import os
 
 class YSortCameraGroup(pygame.sprite.Group):
 	def __init__(self):
